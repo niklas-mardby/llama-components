@@ -6,8 +6,6 @@ function App() {
 	return (
 		<>
 			<Header />
-			<Header />
-			<Header />
 			<h1>🦙 llama-components 🦙</h1>
 			<p>a repo to demo props in React</p>
 			<List />
