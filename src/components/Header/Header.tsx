@@ -1,9 +1,11 @@
 import "./Header.scss";
 
-const Header = () => {
-	const x = "Hello";
+type HeaderProps = {
+	title: string;
+};
 
-	return <h1 className="Header">{x}</h1>;
+const Header = ({ title }: HeaderProps) => {
+	return <h1 className="Header">{title}</h1>;
 };
 
 export default Header;

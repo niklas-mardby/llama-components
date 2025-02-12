@@ -4,7 +4,8 @@ const List = () => {
 			<li>Hello</li>
 			<li>from</li>
 			<li>the</li>
-			<li>other side</li>
+			<li>other</li>
+			<li>side</li>
 		</ul>
 	);
 };
