@@ -1,6 +1,7 @@
 import "./App.scss";
 import Header from "./components/Header/Header";
 import List from "./components/List/List";
+import LlamaButton from "./components/LlamaButton/LlamaButton";
 import SubHeader from "./components/SubHeader/SubHeader";
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
 			<h1>🦙 llama-components 🦙</h1>
 			<p>a repo to demo basics in React</p>
 			<List items={animals} />
+			<LlamaButton title="Click me!" hasIcon={true} />
+			<LlamaButton title="OR Click me!" hasIcon={false} />
 		</>
 	);
 }
