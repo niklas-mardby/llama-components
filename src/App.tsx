@@ -8,11 +8,10 @@ function App() {
 	return (
 		<>
 			<Header title={welcomeTitle} />
-			<Header title="About Niklas" />
-			<Header title="Contact" />
+			{/* <Header title="About Niklas" />
+			<Header title="Contact" /> */}
 			<h1>🦙 llama-components 🦙</h1>
-			<p>a repo to demo props in React</p>
-			<List />
+			<p>a repo to demo basics in React</p>
 			<List />
 		</>
 	);
